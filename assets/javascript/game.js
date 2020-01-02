@@ -1,4 +1,4 @@
-var letters = ["a","b","c","d"]  //=Gives the computer choices to pick from
+var letters = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]  //=Gives the computer choices to pick from
 var userGuess = []  //The letters guessed by the user 
 //Awaits for the computer to randomly choose a letter from the array(letters)
 var letterguessed = ""; 
@@ -48,6 +48,11 @@ console.log(letterguessed);
 guessed();
 guessedSoFar();
 randoLetter();
+
+
+
+
+
 //When user clicks a button 
 document.onkeyup = function(event) {
 //console.log(letterguessed)
